@@ -1,0 +1,24 @@
+{
+    "name": "alexandre-le-borgne/rfc6750",
+    "description": "The OAuth 2.0 Authorization Framework: Bearer Token Usage",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Alexandre Le Borgne",
+            "email": "alexandre.leborgne.83@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "OAuth2\\": "src/",
+            "OAuth2\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "psr/http-message": "^1.0",
+        "ext-http": "*"
+    }
+}
